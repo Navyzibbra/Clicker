@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clicker</title>
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 id="coins">Coins: 0</h2>
+      </div>
+
+      <div class="item">
+        <button class="btn" onclick="coin()">Click Me For Coins</button>
+      </div>
+
+      <div class="itemBuyContainer">
+        <div class="itemBuy">
+          <button class="btn" onclick="buyItem1()">Double Click: $100</button>
+        </div>
+
+        <div class="itemBuy">
+          <button class="btn" onclick="buyItem2()">Super Click: $1000</button>
+        </div>
+
+        <div class="itemBuy">
+          <button class="btn" onclick="buyItem3()">Mega Click: $5000</button>
+        </div>
+
+        <div class="itemBuy">
+          <button class="btn" onclick="buyItem4()">Ultra Click: $15000</button>
+        </div>
+      </div>
+
+      <div class="itemBuy">
+        <h2 class="itemText" id="highscore">Highscore:</h2>
+      </div>
+    </div>
+
+    <footer>Copyrigt 2021 || @Navyzibbra</footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
