@@ -60,7 +60,6 @@ function updateCoinsInLocalStorage(coins) {
   if (!highScore || coins > highScore) {
     localStorage.setItem("highscore", coins);
     document.getElementById("highscore").innerHTML = "Highscore: " + coins;
-    alert("Congratulations! You beat the highscore!");
   } else {
     document.getElementById("highscore").innerHTML = "Highscore: " + highScore;
   }
